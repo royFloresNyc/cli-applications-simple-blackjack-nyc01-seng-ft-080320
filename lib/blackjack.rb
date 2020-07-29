@@ -38,7 +38,8 @@ def hit?(num)
   elsif
     return num 
   else
-    puts 
+    puts "Please enter a valid command"
+    prompt_user
   end   
 end
 
