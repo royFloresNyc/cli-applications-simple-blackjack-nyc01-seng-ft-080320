@@ -58,9 +58,10 @@ end
 def runner
   welcome
   current_total = initial_round
+  puts "Your cards add up to #{current_total}"
   until current_total > 21 do
-    puts "Your cards add up to #{current_total}"
     current_total += hit?(current_total)
+    puts "Your cards add up to #{current_total}"
   end 
   puts "Sorry, you hit #{current_total}. Thanks for playing!"
 end
