@@ -58,6 +58,6 @@ end
 def runner
   welcome
   current_total = initial_round
-  hit?(current_total)
+  until current_total
 end
     
