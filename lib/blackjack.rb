@@ -38,7 +38,7 @@ def hit?(num)
   elsif get_user_input == 's'
     return num 
   else
-    puts "Please enter a valid command"
+    invalid_command
   end   
   prompt_user
 end
