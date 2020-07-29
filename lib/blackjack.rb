@@ -39,8 +39,8 @@ def hit?(num)
     return num 
   else
     puts "Please enter a valid command"
-    prompt_user
   end   
+  prompt_user
 end
 
 def invalid_command
